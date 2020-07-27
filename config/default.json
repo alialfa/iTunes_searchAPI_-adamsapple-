@@ -1,0 +1,13 @@
+{
+  "iTunes": {
+    "api": {
+      "lookup": "/search",
+      "lookupParameters": "/:fetchCategory/:searchTerm"
+    },
+    "server": {
+      "protocol": "http",
+      "host": "localhost",
+      "port": 5000
+    }
+  }
+}

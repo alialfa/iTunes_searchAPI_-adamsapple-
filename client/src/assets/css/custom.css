@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  background-color: black;
+  background-image: url("../images/background4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1200px;
+}
+
+/* COMPONENT: Header */
+#headerNavbar {
+  background-image: url("../images/header3.jpg");
+  background-size: cover;
+}
+
+/* COMPONENT: Home */
+.jumbotronWelcome {
+  margin: 20% auto;
+  width: 54%;
+}
+
+/* COMPONENT: Sidebar */
+.sidebar {
+  /*position: fixed;*/
+  width: 350px;
+  margin-left: -1rem;
+  min-height: 100vh !important;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  background-image: url("../images/sidebar2.jpg");
+}
+
+/* COMPONENT: Sidebar > Search Input */
+#inputSearchBox {
+  width: 320px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(3, 20, 7);
+  /*color: rgb(205, 125, 252);*/
+  color: rgb(51, 177, 194);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#inputDropDownCategory {
+  width: 320px;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.buttonSearch {
+  width: 320px;
+  border-radius: 62px;
+  margin-bottom: 10px;
+  color: rgb(51, 6, 51);
+}
+
+.sidebarSearchIcon {
+  color: rgb(51, 6, 51);
+}
+
+.sidebarStarIcon {
+  /*color: rgb(11, 100, 15);*/
+  color: rgb(51, 6, 51);
+}
+/* COMPONENT: Content > Search Loading */
+.searchWelcome {
+  margin: 22% auto;
+  width: 54%;
+  color: rgb(2, 37, 2);
+}
+
+.searchBuffer {
+  margin: 24% auto;
+}
+
+/* COMPONENT: Content > Search Results */
+
+div.searchResults {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: "green";
+}
+
+.resultFail {
+  margin-top: 25%;
+  color: greenyellow;
+}
+
+.resultAlert {
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+/* COMPONENT: > Search Result Card */
+.resultsCard {
+  width: 16rem;
+}
+
+.resultsCardTitle {
+  color: rgb(6, 16, 148);
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.resultsCardTitle h5 {
+  float: right;
+}
+
+.resultsCardItem {
+  text-align: justify;
+}
+.resultsCardItem h6 {
+  color: darkgreen;
+  font-size: 18px;
+}
+
+.resultsCardItem h5 {
+  text-align: justify;
+}
+
+.resultsCardStarIcon {
+  width: 16rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: goldenrod;
+  background-color: transparent;
+  float: right;
+}
+
+/* COMPONENT: > Favorites */
+.favorites {
+  margin-top: 10px;
+}
+
+.favoritesTitle {
+  color: yellowgreen;
+  float: left;
+}
